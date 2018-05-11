@@ -1,0 +1,154 @@
+.zcy-login{
+    width: 100%;
+    .login-head{
+        height: 3rem;
+        border-bottom: 1px solid #ccc;
+        h2{
+            text-align: center;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 3rem;
+            padding: 0 2.5rem;
+        }
+        .loginLeftIcon{
+            float: left;
+            line-height: 3.5rem;
+            font-size: 18px;
+            margin-left: .625rem;
+        }
+
+    }
+    .tabUl{
+        display: block;
+        width: 100%;
+        height: 3.375rem;
+        float: left;
+        border-bottom: 1px solid #ccc;
+        li{
+            width: 50%;
+            float: left;
+            text-align: center;
+            line-height: 3.375rem;
+            a{
+                display: inline-block;
+                height: 3.28rem;
+                color: rgb(153,153,153);
+                font-size: 16px;
+            }
+            // li:hover > a{
+            //     border-bottom: 3px solid rgb(223, 121, 53);
+            // }
+        }
+        li:hover > a {
+            border-bottom: 3px solid rgb(223, 121, 53);
+        }
+    }
+
+    .login-main1{
+        width: 100%;
+        height: 10rem;
+        margin-top: 3.9375rem;
+        padding: 3.4375rem .9375rem 0 .9375rem; 
+        .loginTel{
+            height: 3rem;
+            border-bottom: 1px solid rgba(221,221,221,1);
+            line-height: 3rem;
+            .t{
+                display: block;
+                float: left;
+                width: 22%;
+                height: 3rem;
+                color: rgb(34,37,48);
+                font-size: 16px;
+            }
+            .telNum{
+                width: 78%;
+                float: left;
+                // margin-left: 1.75rem;
+                padding-left: 1.25rem;
+                input{
+                    border: 0;
+                    font-size: 16px;
+                    width: 100%;
+                    height: 2.875rem;
+                }
+            }
+        }
+        .telYanZheng{
+            height: 3rem;
+            border-bottom: 1px solid rgba(221, 221, 221, 1);
+            line-height: 3rem;
+            .b{
+                display: block;
+                width: 25%;
+                float: left;
+                color: rgb(34,37,48);
+                font-size: 16px;
+            }
+            .yanZhengMa{
+                width: 75%;
+                float: left;
+                padding-left: .525rem;
+                input{
+                    width: 50%;
+                    border: 0;
+                    font-size: 16px;
+                    height: 2.875rem;
+                }
+                .getYanNum{
+                    display: block;
+                    width: 34%;
+                    float: right;
+                    text-align: center;
+                    color: rgb(34,37,48);
+                    font-size: 16px;
+                }
+            }
+        }
+
+    }
+
+    .toLogin{
+        display: block;
+        background: rgb(255,102,0);
+        border: 0;
+        border-radius: 5px;
+        width: 92%;
+        height: 2.8125rem;
+        margin: 30px auto;
+        color: rgb(255,255,255);
+        font-size: 16px;
+        text-align: center;
+        line-height: 2.8125rem;
+    }
+    .othLogin{
+        float: left;
+        margin-left: 1.25rem;
+        color: rgb(255,102,0);
+        font-size: 14px;
+    }
+    .forgetPwd{
+        float: right;
+        margin-right: 1.25rem;
+        font-size: 14px;
+        color: rgb(0,0,0);
+        
+    }
+    .quickReg{
+        width: 100%;
+        height: 2.5rem;
+        margin-top: 5.25rem; 
+        button{
+            display: block;
+            width: 7.5rem;
+            height: 2.25rem;
+            margin: 0 auto;
+            border: 0;
+            border: 1px solid rgb(255,102,0);
+            background: #fff;
+            color: rgb(255,102,0);
+            font-size: 16px;
+            border-radius: 3px;
+        }        
+    }
+}
